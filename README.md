@@ -12,13 +12,14 @@ Ele simula um cenário de vendas, mostrando como extrair insights de um dataset 
 
 ## 📂 Estrutura do Projeto
 
-analisador-vendas/
-│-- data/
-│ └── vendas.csv # Dataset 
-│-- src/
-│ └── analise.py # Script principal
-│-- README.md
-│-- requirements.txt
+- 📂 analisador-vendas/
+  - 📂 data/
+    - 📄 vendas.csv → Dataset de exemplo
+  - 📂 src/
+    - 📄 analise.py → Script principal
+  - 📄 README.md
+  - 📄 requirements.txt
+  - 📄 .gitignore
 
 
 ## 🚀 Como Rodar o Projeto
@@ -28,20 +29,48 @@ analisador-vendas/
    git clone https://github.com/seu-usuario/analisador_vendas.git
 
 2. Entre na pasta do projeto:
-
-cd analisador-vendas
-
+   ```bash
+   cd analisador-vendas
 3. Crie um ambiente virtual (opcional, mas recomendado):
-
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
 
 4. Instale as dependências:
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 5. Rode o script:
+   ```bash
+   python src/analise.py
 
-python src/analise.py
+## 📊 Exemplo de Saída
+
+### Gráfico da receita mensal
+
+![Receita Mensal](img/receita_mensal.png)
+
+## 📚 Tecnologias Utilizadas
+
+- Python
+
+- Pandas
+
+- Matplotlib
+
+## 💡 Melhorias Futuras
+
+1. Criar um dashboard interativo com Streamlit
+
+2. Adicionar previsão de vendas usando Prophet ou scikit-learn
+
+3. Permitir upload de novos datasets pelo usuário
+
+## 👩‍💻 Autora
+
+Desenvolvido por Francielli Valerio
+
+🔗 [Meu LinkedIn](https://www.linkedin.com/in/franciellivalerio/)
+
 
