@@ -11,8 +11,18 @@ if "valor_total" not in df.columns:
     df["valor_total"] = df["quantidade"] * df["preco_unitario"]
 
 # Estatísticas
+desc = df.describe(include="all")
+desc = desc.loc[["count", "mean", "std", "min", "25%", "50%", "75%", "max"]]
+
+desc = desc.applymap(lambda x: f"{x:,.2f}" if isinstance(x, (int, float)) else x)
+
+if "data" in desc.columns:
+    desc["data"] = desc["data"].apply(
+        lambda x: x.strftime("%Y-%m-%d") if hasattr(x, "strftime") else x
+    )
+
 print("\n📊 Estatísticas gerais:")
-print(df.describe())
+print(desc)
 
 receita_total = df["valor_total"].sum()
 print(f"\n💰 Receita Total: R$ {receita_total:,.2f}")
