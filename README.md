@@ -52,10 +52,14 @@ Ele simula um cenário de vendas, mostrando como extrair insights de um dataset 
 ![Receita Mensal](img/receita_mensal.png)
 
 ### Gráfico da Quantidade Mensal
-![Receita Mensal](img/quantidade_mensal.png)
+![Quantidade Mensal](img/quantidade_mensal.png)
 
 ### Gráfico do Top Produtos
-![Receita Mensal](img/top_produtos.png)
+![Top Produtos](img/top_produtos.png)
+
+## 📊 Terminal 
+
+![Saída Terminal](img/saida_terminal.png)
 
 ## 📚 Tecnologias Utilizadas
 
