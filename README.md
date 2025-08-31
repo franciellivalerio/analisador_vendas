@@ -47,9 +47,15 @@ Ele simula um cenário de vendas, mostrando como extrair insights de um dataset 
 
 ## 📊 Exemplo de Saída
 
-### Gráfico da receita mensal
+### Gráfico da Receita Mensal
 
 ![Receita Mensal](img/receita_mensal.png)
+
+### Gráfico da Quantidade Mensal
+![Receita Mensal](img/quantidade_mensal.png)
+
+### Gráfico do Top Produtos
+![Receita Mensal](img/top_produtos.png)
 
 ## 📚 Tecnologias Utilizadas
 
