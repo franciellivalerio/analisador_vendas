@@ -12,13 +12,14 @@ Ele simula um cenário de vendas, mostrando como extrair insights de um dataset 
 
 ## 📂 Estrutura do Projeto
 
-analisador-vendas/
-│-- data/
-│ └── vendas.csv # Dataset 
-│-- src/
-│ └── analise.py # Script principal
-│-- README.md
-│-- requirements.txt
+- 📂 analisador-vendas/
+  - 📂 data/
+    - 📄 vendas.csv → Dataset de exemplo
+  - 📂 src/
+    - 📄 analise.py → Script principal
+  - 📄 README.md
+  - 📄 requirements.txt
+  - 📄 .gitignore
 
 
 ## 🚀 Como Rodar o Projeto
@@ -52,19 +53,19 @@ analisador-vendas/
 
 ## 📚 Tecnologias Utilizadas
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
 ## 💡 Melhorias Futuras
 
-Criar um dashboard interativo com Streamlit
+1. Criar um dashboard interativo com Streamlit
 
-Adicionar previsão de vendas usando Prophet ou scikit-learn
+2. Adicionar previsão de vendas usando Prophet ou scikit-learn
 
-Permitir upload de novos datasets pelo usuário
+3. Permitir upload de novos datasets pelo usuário
 
 ## 👩‍💻 Autora
 
