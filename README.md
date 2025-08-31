@@ -50,6 +50,8 @@ Ele simula um cenário de vendas, mostrando como extrair insights de um dataset 
 ### Gráfico da receita mensal
 
 ![Receita Mensal](img/receita_mensal.png)
+![Receita Mensal](img/quantidade_mensal.png)
+![Receita Mensal](img/top_produtos.png)
 
 ## 📚 Tecnologias Utilizadas
 
