@@ -69,6 +69,7 @@ Permitir upload de novos datasets pelo usuário
 ## 👩‍💻 Autora
 
 Desenvolvido por Francielli Valerio
-🔗 [Meu LinkedIn]((https://www.linkedin.com/in/franciellivalerio/))
+
+🔗 [Meu LinkedIn](https://www.linkedin.com/in/franciellivalerio/)
 
 
